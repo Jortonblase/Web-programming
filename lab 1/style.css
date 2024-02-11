@@ -7,35 +7,42 @@
  body{
     height: 2689px;
     width: 1440px;
-    font-weight: 400;
+    font-weight: 400px;
  }
-
- .header {
-  display: flex;
-  justify-content: flex-end; /* разместить элементы вправо */
-  margin-top: 20px; /* добавить отступ сверху */
+ .conteiner-text { 
+  width: 960px;
+  height: 1431px;
+  margin: 0px auto;
+  font-size: 24px;
+  font-family: Oxygen;
+  line-height: 35px;
+  margin-top: 140px;
+  color: #101315;
+} 
+ p#Escape-1{
+  margin-top: 20px;
+  margin-left: 250px;
+  width: 92px;
+  height: 26px;
+  font-family: Lora;
+  font-size: 26px;   
+  color: #2E2E2E; 
 }
 
-.header p {
-  margin: 0; /* убрать отступы у абзацев */
-  padding: 10px; /* добавить отступ вокруг текста */
+ .header {
+  margin-left: 833px; 
   width: 39px;
   height: 20px;
   font-family: Oxygen;
   font-size: 12px;   
-  color: #2E2E2E;
+  color: #2E2E2E;  
 }
 
- p#Escape-1{
-    margin-top: 20;
-    width: 92px;
-    height: 26px;
-    font-family: Lora;
-    font-size: 26px;   
-    color: #2E2E2E; 
-  }
+
 
   h1#Headline{
+    margin-left: 471px;
+    margin-right: 471px;
     font-family: Lora;
     width: 498px;
     height: 51px;
@@ -44,6 +51,9 @@
     color: #2E2E2E;
   }
 h2#Subtitle{
+  margin-left: 468px;
+  margin-right: 468px;
+  margin-top: 20px;
   font-family: Oxygen;
   width: 504px;
   height: 20px;
@@ -52,6 +62,8 @@ h2#Subtitle{
   color: #2E2E2EA1;
   opacity: 0.63;
 }
+
+
 img#back{
   height: 534px;
   width: 1440px;
