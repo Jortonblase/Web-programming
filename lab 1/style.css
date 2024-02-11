@@ -1,0 +1,54 @@
+ body{
+    height: 2689px;
+    width: 1440px;
+ }
+ p#Escape-1{
+    position: absolute;
+    width: 92px;
+    height: 26px;
+    top: 20px;
+    left: 250px;
+    font-family: Lora;
+    font-size: 26px;    
+  }
+
+ p#Home-1{
+    position: absolute;
+    width: 39px;
+    height: 20px;
+    top: 47px;
+    left: 833px;
+    font-family: Oxygen;
+    font-size: 12px;
+  }
+  
+  p#Categories-1{
+    position: absolute;
+    width: 39px;
+    height: 20px;
+    top: 47px;
+    left: 913px;
+    font-family: Oxygen;
+    font-size: 12px;   
+  }
+
+  p#About-1{
+    position: absolute;
+    width: 39px;
+    height: 20px;
+    top: 47px;
+    left: 1031px;
+    font-family: Oxygen;
+    font-size: 12px;   
+  }
+
+  p#Contact-1{
+    position: absolute;
+    width: 39px;
+    height: 20px;
+    top: 47px;
+    left: 1112px;
+    font-family: Oxygen;
+    font-size: 12px;   
+  }
+
