@@ -1,3 +1,11 @@
+ @font-face {
+    font-family: Lora;
+    src: url(./Lora-Regular.ttf);
+ }
+ @font-face {
+    font-family: Oxygen;
+    src: url(./Oxygen-Regular.ttf);
+ }
  body{
     height: 2689px;
     width: 1440px;
