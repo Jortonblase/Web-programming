@@ -1,71 +1,104 @@
  @font-face {
-    font-family: 'Lora', serif;
+   font-family: 'Lora', serif;
  }
+
  @font-face {
-    font-family: 'Oxygen', sans-serif;
+   font-family: 'Oxygen', sans-serif;
  }
- body{
-    height: 2689px;
-    width: 1440px;
-    font-weight: 400px;
+
+ 
+
+ body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   height: 2689px;
+   width: 1440px;
+   font-weight: 400px;
  }
- .conteiner-text { 
-  width: 960px;
-  height: 1431px;
-  margin: 0px auto;
-  font-size: 24px;
+
+ .conteiner-text {
+   max-width: 960px;
+   width: 100%;
+   height: 1431px;
+   margin: 0px auto;
+   font-size: 24px;
+   font-family: Oxygen;
+   line-height: 35px;
+   margin-top: 140px;
+   color: #101315;
+ }
+
+ .logo {
+   font-family: Lora;
+   font-size: 26px;
+ }
+
+ .header-conteiner {
+   padding: 17px 250px;
+   display: flex;
+   justify-content: space-between;
+   height: 40px;
+   width: 940px;
+   color: #2E2E2E;
+ }
+
+ .right-menu {
+   width: 376.61px;
+   font-family: Oxygen;
+   font-size: 12px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 0 21px;
+ }
+
+ .Headline {
+   padding-top: 89px;
+   margin: 0 auto;
+   font-family: Lora;
+   width: 498px;
+   height: 51px;
+   font-size: 50px;
+   font-weight: 400;
+   color: #2E2E2E;
+ }
+
+ .Subtitle {
+   margin: 0 auto;
+   margin-top: 20px;
+   margin-bottom: 113px;
+   font-family: Oxygen;
+   width: 504px;
+   height: 20px;
+   font-size: 17px;
+   font-weight: 400;
+   color: #2E2E2EA1;
+   opacity: 0.63;
+ }
+
+ .footer {
+   position: absolute;
+   padding: 17px 250px;
+   display: flex;
+   justify-content: space-between;
+   height: 40px;
+   width: 940px;
+   color: #fff;
+   
+   z-index: 1;
+ }
+ .footer-right-menu {
+  opacity: 60%;
+  width: 376.61px;
   font-family: Oxygen;
-  line-height: 35px;
-  margin-top: 140px;
-  color: #101315;
-} 
- p#Escape-1{
-  margin-top: 20px;
-  margin-left: 250px;
-  width: 92px;
-  height: 26px;
-  font-family: Lora;
-  font-size: 26px;   
-  color: #2E2E2E; 
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 21px;
 }
-
- .header {
-  margin-left: 833px; 
-  width: 39px;
-  height: 20px;
-  font-family: Oxygen;
-  font-size: 12px;   
-  color: #2E2E2E;  
-}
-
-
-
-  h1#Headline{
-    margin-left: 471px;
-    margin-right: 471px;
-    font-family: Lora;
-    width: 498px;
-    height: 51px;
-    font-size: 50px;
-    font-weight: 400;
-    color: #2E2E2E;
-  }
-h2#Subtitle{
-  margin-left: 468px;
-  margin-right: 468px;
-  margin-top: 20px;
-  font-family: Oxygen;
-  width: 504px;
-  height: 20px;
-  font-size: 17px;
-  font-weight: 400; 
-  color: #2E2E2EA1;
-  opacity: 0.63;
-}
-
-
-img#back{
-  height: 534px;
-  width: 1440px;
-  top: 360px;
-}
+ .img-footer {
+   position: relative;
+   z-index: 0;
+ }
